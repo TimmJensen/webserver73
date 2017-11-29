@@ -1,7 +1,7 @@
 const restify = require('restify');
 const path = require('path');
 
-const port = process.env.port || 5000;
+const port = process.env.port || 80;
 
 const app = restify.createServer({
     name: 'webserverTest',
